@@ -12,8 +12,7 @@ You'll need.
 Version 8 or greater of Nodejs - this is required to support the util.promisify feature.
 The credentials in the config_twitter.js file. 
 
-NOTE: It must be these specific credentials - Twitter's API links credentials to specific development environments, which in turn affects request URIs.
-
+NOTE: If you supply your own credentials, you will need to change the 'Dev.json' part of the url to reflect your own dev environment in Twitter's Dashboard
 Instructions
 ------------
 
