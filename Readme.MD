@@ -10,7 +10,7 @@ A command line tool that accepts user arguments, searches the Twitter API with t
 You'll need.
 ------------
 Version 8 or greater of Nodejs - this is required to support the util.promisify feature.
-The credentials in the config_twitter.js file. 
+OAuth credentials.
 
 NOTE: If you supply your own credentials, you will need to change the 'Dev.json' part of the url to reflect your own dev environment in Twitter's Dashboard
 Instructions
@@ -26,10 +26,10 @@ NOTE: Owing to limitations of the CSV format, new line characters have been remo
 Test
 ----
 
-Run npm test to execute unit tests (please note that this will make api calls )
+Run npm test to execute unit tests (please note that this will make api calls, and will therefore consume against credentials)
 
 Technologies
 ------------
 
-Nodejs, Mocha, Chai, npm package.
+Nodejs, Mocha, and a throttler package from npm
 
