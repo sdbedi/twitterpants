@@ -18,7 +18,7 @@ Instructions
 
 Clone this repo
 Run npm i
-Then type node twiiterpants.js, followed by the word or phrase you wish to search by. If you do not provide one, we will search for '#iot'
+Then type node twiiterpants.js, followed by the hashtag you wish to search by. If you do not provide one, we will search for '#iot'
 The application will then create a CSV file in this folder with your results.
 
 NOTE: Owing to limitations of the CSV format, new line characters have been removed from the data, and commas replaced by semicolons
